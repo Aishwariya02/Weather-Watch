@@ -311,7 +311,6 @@ soup_page = soup(xml_page, "xml")
 news_list = soup_page.findAll("item")
 
 bg1 = PhotoImage(file='landscape.png')
-#bg2=PhotoImage(file='sun2_icon.png')
 
 main_window.mainloop()
 
