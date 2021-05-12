@@ -275,6 +275,8 @@ def delete_notes():
 def delete_notes_clear_window():
     notes_clear_window.destroy()
 
+def delete_error_window():
+    Error_window.destroy()
 
 def Exit():
     main_window.destroy()
